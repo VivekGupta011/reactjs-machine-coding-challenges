@@ -68,6 +68,7 @@ function App() {
 
     let isValid = isValidValue();
     if (isValid) {
+      console.log(userInput);
       console.log("Form is valid");
     } else {
       console.log("Form has errors");

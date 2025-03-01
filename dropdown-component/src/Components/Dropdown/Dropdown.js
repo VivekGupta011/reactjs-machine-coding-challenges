@@ -23,7 +23,7 @@ const Dropdown = ({ componentObject }) => {
     if (clickedHeader === componentObject.title) {
       let options = [];
       {
-        componentObject.options.map((option, index) => {
+        componentObject.options.map((option, index) => { 
           options.push(<span key = {index} onClick={() => handleOptionClick(option)}>{option}</span>);
         });
       }

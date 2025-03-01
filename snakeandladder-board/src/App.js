@@ -20,6 +20,9 @@ function App() {
       }
       newCells = newCells.concat(rowCells);
     }
+
+    console.log("newCells:");
+    console.log(newCells);
     
     setData(newCells);
   }, []);

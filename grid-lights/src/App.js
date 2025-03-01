@@ -54,8 +54,11 @@ function App() {
         </div>
       );
     }
+    console.log("renderTiles::")
+    console.log(cells);
     return cells;
   };
+
 
   return (
     <div className="App">
